@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/api.js",
+    "postinstall": "webpack --config ./webpack.config.js",
+    "build": "npm run postinstall"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "webpack": "^2.3.2",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
