@@ -10,14 +10,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "license": "MIT",
+  "dependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "express": "^4.15.2",
     "webpack": "^2.3.2",
     "webpack-node-externals": "^1.5.4"
-  },
-  "dependencies": {
-    "express": "^4.15.2"
   }
 }
