@@ -5,9 +5,7 @@ const app = express();
 
 app.set('port', port);
 
-app.get('/', (request, response) => {
-  response.send('Hello world');
-});
+app.use(express.static('./public'));
 
 app.listen(port, () => {
   console.log(`listening on port ${port}...`);
