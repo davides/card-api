@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "card-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back-end API for card.",
   "main": "index.js",
   "scripts": {
     "start": "node dist/api.js",
@@ -9,7 +9,7 @@
     "build": "npm run postinstall"
   },
   "keywords": [],
-  "author": "",
+  "author": "davides",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.24.0",
